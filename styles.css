@@ -7,6 +7,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+      background-color: rgba(255, 255, 255, 0.5); /* white @ 50% */
+
+}
 /* header bacground  */
 .header{
     width: 100%;
@@ -169,3 +173,91 @@ color: #ffffff;
     margin-left: 14px;
     /* border: 2px solid #4E47FF   ; */
 }
+
+/* user's feedback */
+     .feedback{
+    width: 1140px;
+    height: 345px;  
+    /* border: 2px solid #4E47FF; */
+    margin-left: 151px;
+    margin-bottom: 200px;
+
+     }
+     .fed-title{
+        font-family: "Raleway", "Inter", sans-serif;
+        margin-top: 0px;
+        font-size: 42px;
+        font-weight: bold;  
+        color: #252432;
+       margin-bottom: 50px;
+        text-align: center;
+     }
+     .user-comments{
+         /* border: 2px solid #8cdd1a; */
+         display: flex;
+         justify-content: space-evenly;
+     }
+     .user-comment{
+        border: 2px solid #af47ff;
+        background-image: url(./Assets/icon-star.png),url(./Assets/icon-star.png), url(./Assets/icon-star.png),url(./Assets/icon-star.png),url(./Assets/icon-star.png);
+           margin-left: -5px;
+        background-repeat: no-repeat;
+        background-position:10px 10px, 35px 10px,60px 10px, 85px 10px,110px 10px;
+     padding-top: 24px;
+          padding-left: 24px;
+           border: 1px solid #F2EDED; 
+border-radius: 14px; 
+           box-sizing: border-box;  
+        width:367px ;
+        height: 243px;
+
+    }
+    .user-comment-title{
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: "Raleway", "Inter", sans-serif;
+        margin-left: -13px;
+    }
+    .user-comment-subtitle{
+        color: black
+        font-weight: 500;
+        font-family: "Raleway", "Inter", sans-serif;
+        margin-left: -13px;
+        margin-top: -25px;
+    }
+    .users{
+        display: flex;
+        margin-left: -21px;
+    }
+    .user-name-date{
+        font-family: "Raleway", "Inter", sans-serif;
+        font-size: 16px;
+        color: #252432;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .user-img{
+        height: 40px;
+        width: 45px;
+        border-radius: 50%;
+     background-image: url(./Assets/avatar.png);
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    }
+    .user-Name{
+        font-family:  "Inter", sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #757575;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    .user-Date{
+        font-family:  "Inter", sans-serif;
+        font-size: 16px;
+        color: #B3B3B3;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    
