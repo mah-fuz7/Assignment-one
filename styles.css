@@ -8,7 +8,10 @@
     "wdth" 100;
 }
 body{
-      background-color: rgba(255, 255, 255, 0.5); /* white @ 50% */
+      /* background-color: rgba(255, 255, 255, 0.5);  */
+      /* background-color: #D6DDED; */
+      background-color: rgba(214, 221, 237, 0.5)
+;
 
 }
 /* header bacground  */
@@ -198,7 +201,7 @@ color: #ffffff;
          justify-content: space-evenly;
      }
      .user-comment{
-        border: 2px solid #af47ff;
+        /* border: 2px solid #af47ff; */
         background-image: url(./Assets/icon-star.png),url(./Assets/icon-star.png), url(./Assets/icon-star.png),url(./Assets/icon-star.png),url(./Assets/icon-star.png);
            margin-left: -5px;
         background-repeat: no-repeat;
@@ -210,6 +213,7 @@ border-radius: 14px;
            box-sizing: border-box;  
         width:367px ;
         height: 243px;
+        background-color: #ffffff;
 
     }
     .user-comment-title{
@@ -260,4 +264,65 @@ border-radius: 14px;
         margin-left: 10px;
         margin-top: -10px;
     }
-    
+    /* contact section style */
+    .contact{
+        /* border: 2px solid red; */
+        margin-left: 150px;
+        margin-bottom: 200px;
+        width: 1140px;
+        height: 635px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .contact-title{
+        font-family: "Raleway";
+        font-size: 97px;
+        font-weight:bold;
+        color: #000000;
+        margin-top: 15%;
+        width: 50%;
+        /* border: 2px solid red; */
+    }
+    .contact-form{
+        margin-top: 125px;
+    }
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #444;
+    }
+   .contact-form input {
+    width: 460px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #D6DDED;
+    border-radius: 12px;
+    font-size: 14px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    padding-left:10px ;
+   }
+   .contact-form textarea {
+    border-radius: 12px;
+    background-color: #ffffff;
+        font-family: sans-serif;
+     padding: 10px;
+     border: none;
+
+   }
+   .contact-btn{
+    background-color:#4E47FF;
+    color: #ffffff;
+    padding: 19px 201px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 19px;
+    border: none;
+   }
