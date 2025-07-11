@@ -364,3 +364,8 @@ margin: 30px;
 color: #8987A1;
 
    }
+   /* button hover effect */
+.button:hover {
+  background-color: #00D1FF;           
+ 
+}
