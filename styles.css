@@ -213,7 +213,7 @@ border-radius: 14px;
            box-sizing: border-box;  
         width:367px ;
         height: 243px;
-        background-color: #ffffff;
+        background-color: #FAFCFF;
 
     }
     .user-comment-title{
@@ -268,12 +268,13 @@ border-radius: 14px;
     .contact{
         /* border: 2px solid red; */
         margin-left: 150px;
-        margin-bottom: 200px;
+        margin-bottom: 400px;
         width: 1140px;
         height: 635px;
         display: flex;
         justify-content: space-between;
-        
+              background-color: #f5f8ff
+
     }
     .contact-title{
         font-family: "Raleway";
@@ -325,4 +326,41 @@ border-radius: 14px;
     font-weight: bold;
     margin-top: 19px;
     border: none;
+   }
+   /* footer style */
+   footer{
+    background-color: #ffffff;
+    width: 100%;
+    height: 500px;
+    display: flex;
+   }
+   .footer-section{
+    width: 531px;
+    height: 221px;
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 125px;
+    margin-left: 475px;
+
+   }
+   .footer-title{
+    font-family: "inter";
+    font-size: 100px;
+    font-weight: 900;
+    color:#4E47FF ;
+    margin-left: 100px;
+
+   }
+   .footer-subtitle{
+    color: #8987A1;
+    margin-left: 40px;
+   }
+    .footer-link{
+        margin-top: 42px;
+        margin-left: 25px;
+    }
+   .footer-link a{
+text-decoration: none;
+margin: 30px;
+color: #8987A1;
+
    }
